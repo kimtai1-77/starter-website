@@ -1,0 +1,248 @@
+    /**, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}*/
+
+html {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5;
+}
+
+:root {
+    --space-1: 0.4rem;
+    --space-2: 0.8rem;
+    --space-3: 1.2rem;
+    --space-4: 1.6rem;
+    --space-5: 2.0rem;
+    --space-6: 2.4rem;
+    --space-7: 2.8rem;
+    --space-8: 3.2rem;
+    --space-9: 3.6rem;
+    --space-10: 4.0rem;
+    --space-11: 4.4rem;
+    --space-12: 4.8rem;
+}
+
+header {
+    background-color: #222222;
+}
+
+.hero {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 3.2rem;
+}
+
+.logo {
+    font-size: 1.6rem;
+    color: #ebe4be;
+    font-weight: bold;
+}
+
+li {
+    color: #efefef;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.separate-box {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+}
+
+.search-box {
+    color: #efefef;
+    background-color: #222222;
+    font-size: 1.2rem;
+    padding: .8rem;
+    border-radius: var(--space-1);
+    border: .1rem solid #efefef9c;
+    width: 20rem;
+    height: 2.8rem;
+}
+
+.separate-box > ul {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.container {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 2rem;
+    padding-left: 3.2rem;
+}
+
+.text h1 {
+    font-size: 3.6rem;
+}
+
+.text p {
+    text-align: justify;
+}
+
+button {
+    padding: 0.8rem 1.6rem;
+    border: none;
+    font-weight: bold;
+    color: #1d1414;
+    border: .1rem;
+    border-radius: .8rem;
+    background-color: #ebe4be;
+    width:max-content;
+    cursor: pointer;
+    font-size: 1.2rem;
+    box-sizing: content-box;
+}
+
+.hero-image img {
+    height: auto;
+    width: 52rem;
+    border-radius: .8rem;
+}
+
+.hero {
+    display: flex;
+}
+
+.pictures {
+    background-color: #ffffff;
+    padding: 6.0rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4.0rem;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding: 1.12rem;*/
+    gap: .8rem;
+    width: 60%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    border: .2rem solid #222222;
+    border-radius: 1.2rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 13.2rem;
+    height: 13.8rem;
+    box-sizing: border-box;
+    padding: 0 .8rem;
+}
+
+.card img {
+    width: auto;
+    max-height: 12.2rem;
+    object-fit: cover;
+}
+
+.card p {
+    text-align: center;
+    font-style: italic;
+    color: #222222ec;
+    font-size: 1.0rem;
+}
+
+
+.text-h1-pictures h1 {
+    font-size: 2.8rem;
+    text-align: center;
+    color: #222222;
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+    height: 32rem;
+    padding: 0rem 3.2rem;
+}
+
+.phrase-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.phrase-text h1 {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+.phrase-text p {
+    text-align: end;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.signup {
+    height: 40rem;
+    padding: 0rem 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    height: 20rem;
+    display: flex;
+    padding: 0rem 3.2rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #222222;
+    color: #efefef;
+    border-radius: 2.4rem;
+}
+
+.signup-text {
+    font-size: 1.6rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.0rem;
+    background-color: #222222;
+    color: #efefef;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+
